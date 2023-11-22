@@ -1,0 +1,62 @@
+:root{
+    --bg-color: #FFFFFF;
+    --preto-fonte: #000000;
+    --fonte-principal: 'Poppins';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(imgs/background_img.jpg);
+    background-size: contain;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--preto-fonte);
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 3.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 4px solid;
+    display: inline-block;
+    font-size: 4em;
+    padding: 20px;
+    margin: 20px;
+}
+
+.restart_btn{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: bold;
+    background: #00FF00;
+    cursor: pointer;
+}
